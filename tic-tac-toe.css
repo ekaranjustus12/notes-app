@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	min-height: 100vh;
+	background: transparent;
+	padding-top: 4%;
+	padding-left: 10%;
+
+}
+.container h1{
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 30px;
+}
+.container button{
+	cursor: pointer;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	outline: 0;
+	border: 0;
+	border-radius: 20px;
+	padding: 10px 15px;
+	margin: 30px 40px;
+	background: white;
+	color: blue;
+}
+.input-box{
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	background: lightblue;
+	color: white;
+	padding: 40px;
+	margin: 20px 0px;
+	outline: none;
+	border-radius: 10px;
+}
+.input-box img{
+	width: 25px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	cursor: pointer;
+}
